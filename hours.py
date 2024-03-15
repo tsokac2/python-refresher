@@ -150,6 +150,42 @@
 # print(mean(moday_temperatures))
 # print(mean(student_grades))
 
+# Outsideblock
+# if 3 > 1:
+#     print("Greater")
+# else:
+#     print("Not Greater")
+
+# ELIF CONDITIONALS
+# x = 3
+# y = 1
+# if x > y:
+#     print("x is greater than y")
+# elif x == y:
+#     print("x is equeal to y")
+# else:
+#     print("x is less that y")
+
+# WHITE SPACE
+# if 3 > 1:
+#     print("a")
+# print("aa")
+# print("aaa")
+
+# if 3>               1:
+#     print("b")
+# print("bb")
+# print("bbb")
+
+
+# if 3 > 1:
+#     print("c")
+# print("cc")
+# print("ccc")
+
+
+
+
 
 
 
