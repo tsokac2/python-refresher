@@ -318,7 +318,40 @@
 # print(myfile.read())
 
 # FILE CURSOR
-myfile = open("text.txt")
-print(myfile.read())
-print(myfile.read())
+# myfile = open("text.txt")
+# content = myfile.read()
+# print(content)
+# print(content)
+
+# CLOSING A FILE
+# myfile = open("text.txt")
+# content = myfile.read()
+# myfile.close()
+# print(content)
+
+# OPENING FILES USING "WITH"
+# myfile = open("text.txt")
+# content = myfile.read()
+# myfile.close()
+
+# with open("text.txt") as myfile:
+#     content = myfile.read()
+# print(content)
+
+# DIFFERENT FILE PATHS
+# with open("parent_folder/text.txt") as myfile:
+#     content = myfile.read()
+# print(content)
+
+# READING WITH "r" TEXT TO A FILE
+# with open("text.txt", "r") as myfile:
+#     content = myfile.read()
+# print(content)
+
+# WRITING TEXT TO A FILE
+# with open("newfile.txt", "w") as myfile:
+#     myfile.write("Hello there you new file, you!!")
+
+# with open("newfile.txt", "w") as myfile:
+#     myfile.write("Hello\nthere you new file, you!!")
 
