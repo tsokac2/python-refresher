@@ -210,18 +210,60 @@
 # message = f"Hello {name} {sname}" # Returns "Hello <what ever you enter for "name" and "sname">"
 # print(message)
 
-# 
+# FOR LOOPS - HOW AND WHY
+# monday_temperatures = [9.1, 8.8, 7.6]
+
+# for temp in monday_temperatures:
+#     print(round(temp))
+#     print("DONE")
+
+# for letter in "hello":
+#     print(letter)
+#     print("DONE")
+
+# for letter in "tomislav":
+#     print(letter.title())
+
+# LOOPING THROUG DICTONARY
+# student_grades = {"Marry":9.1, "Sim": 8.8, "John": 7.5}
+
+# for grades in student_grades.keys(): # prints "Marry", "Sim", "John"
+#     print(grades)
+
+# for grades in student_grades.values(): # prints 9.1,8.8,7.5
+#     print(grades)
+
+# WHILE LOOP EXAMPLE WITH OUTPUT
+# username = ''
+# while username != "Tom":
+#     username = input("Enter username: ")
+
+# WHILE LOOPS - HOW AND WHY
+# for i in [1,2,3]:
+#     print(i)
+
+# a = 3
+
+# while a > 0:
+#     print(1)
+#     print(2)
+
+# username = ''
+
+# while username != 'tom':
+#     username = input("Enter username: ")
 
 
+# Using break 
+# while True:
+#     username = input("Enter username: ")
+#     if username == "tom":
+#         print(f"Hello {username}") #  Returns "tom" when the condition is true
+#         break
+#     else:
+#         continue
 
-
-
-
-
-
-
-
-
+# HOW THE OUTPU LOOKS LIKE
 
 
 
