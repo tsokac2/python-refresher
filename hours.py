@@ -177,11 +177,42 @@
 # print("bb")
 # print("bbb")
 
-
 # if 3 > 1:
 #     print("c")
 # print("cc")
 # print("ccc")
+
+# USER INPUT
+# def weather_condition(temp):
+#     if temp > 7:
+#         return "Warm"
+#     else:
+#         return "Cold"
+
+# user_input = float(input("Enter Temperature:")) # by default the user_input will be string
+# # print(user_input.lower())
+# print(weather_condition(user_input))
+
+# user_input = int(input("Enter a value:"))
+# user_input = input("Enter a value:")
+# print(type(user_input))
+
+# STRING FORMATING
+# user_input = input("Enter your name: ")
+# # message = "Hello %s!" % user_input
+# message = f"Hello {user_input}"
+# print(message) # Returns "Hello <what ever you enter>"
+
+# STRING FORMATING WITH MULTIPLE VARIABLES
+# name = input("Enter your name: ")
+# sname = input("Enter your name: ")
+# # message = "Hello %s %s" % (name, sname)
+# message = f"Hello {name} {sname}" # Returns "Hello <what ever you enter for "name" and "sname">"
+# print(message)
+
+# 
+
+
 
 
 
