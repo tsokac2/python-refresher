@@ -263,10 +263,62 @@
 #     else:
 #         continue
 
-# HOW THE OUTPU LOOKS LIKE
+# SIMPLE LIST COMPREHENSION
+# temps = [221, 234, 340, 230]
+# new_temps = []
+# for temp in temps:
+#     new_temps.append(temp /10)
+# print(new_temps)
 
+# BETERE WAY CREATING LIST COMPREHENSION
+# temps = [221, 234, 340, 230]
+# new_temps = [temp/10 for temp in temps]
+# print(new_temps)
 
+# LIST COMPREHENSION WITH CONDITIONAL
+# temps = [221, 234, 340, -9999, 230]
+# new_temps = [temp /10 for temp in temps if temp != -9999]
+# print(new_temps)
 
+# LIST COMPREHENSION WITH IF-ELSE CONDITIONAL
+# temps = [221, 234, 340, -9999, 230]
+# new_temps = [temp /10  if temp != -9999 else 0 for temp in temps]
+# print(new_temps)
 
+# FUNCTIONS WITH MULTIPLE ARGUMENTS
+# def area(a, b):
+#     return a * b
+# print(area(2,3))
 
+# DEFAULT AND NON-DEFAULT PARAMETERS AND KEYWORDS AND NON-KEYWORD ARGUMENTS
+# def area(a, b):
+#     return a * b
+# print(area(a=2,b=3))
+
+# def area(a, b):
+#     return a * b
+# print(area(b=2,a=3))
+
+# def area(a, b=6):
+#     return a * b
+# print(area(15)) # Returns a * 6
+
+# FUNCTIONS WITH AN ARBITRARY NUMBER OF NON-KEYWORD ARGUMENTS
+# def mean(*args):
+#     return sum(args) / len(args)
+# print(mean(1,3,4))
+
+# FUNCTIONS WITH AN ARBITRARY NUMBER OF KEY ARGUMENTS
+# def mean(**kwargs):
+#     return kwargs
+# print(mean(a=1,b=2,c=3)) # Returns: {'a': 1, 'b': 2, 'c': 3}
+
+# READING TEXT FOR A FILE
+# myfile = open("text.txt")
+# print(myfile.read())
+
+# FILE CURSOR
+myfile = open("text.txt")
+print(myfile.read())
+print(myfile.read())
 
